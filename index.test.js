@@ -17,7 +17,7 @@ test('it has a movie', () => {
 
 test('movie has a name', () => {
     const movie = new Movie('Matrix')
-    assert(movie != null)
+    assert(movie.name === 'Matrix')
 })
 
 
